@@ -1,0 +1,66 @@
+body{
+   
+    background-color: black;
+    width: 100%;
+}
+
+.message{
+    color: green;
+    font-style: bold;
+}
+
+.pop-up{
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border: none;
+    border-radius: 35px;
+   
+    padding: 10px;
+
+}
+
+.tick-img-box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(58, 166, 58);
+    margin-top: -35px;
+}
+
+
+
+.ok-btn{
+    width: 25%;
+    font-size: 15px;
+    background-color: rgb(58, 166, 58);
+    border-radius: 12px;
+    color: white;
+    padding: 5px;
+   
+    cursor: pointer;
+    transition: 0.5s; 
+    margin: auto; 
+    
+    border: none;
+    
+}
+
+.ok-btn:hover{
+    background-color: rgb(169, 23, 140);}
+
+
+
+@media screen and (max-width:640px) {
+
+    .pop-up{
+        background-color: white;
+        width: 50%;
+        margin-top: 25%;
+        margin-bottom: 25%;
+   
+}
+}
